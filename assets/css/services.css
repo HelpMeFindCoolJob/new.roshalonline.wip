@@ -1,0 +1,892 @@
+/* 1. Info services section */
+
+#infoServicesSection {
+    text-align: center;
+    min-height: 450px;
+    padding-top: 59px;
+    background-image: url(../img/slider2.png);
+}
+
+.header-info-services-section {
+    height: 100%;
+    color: #fff;
+}
+
+.header-info-services-section h2 {
+    text-transform: uppercase;
+    padding-top: 50px;    
+}
+
+.section-header {
+    padding: 0px;
+}
+
+.info-services-section {
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* 2. Inet over Eth section */
+
+#inetServicesSection {
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.section-header-hr {
+    margin-top: 20px;
+}
+
+.net-map-container {
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: none;
+    margin-top: 20px; 
+}
+
+#hideNetmapBtn {
+    display: none;
+}
+
+.show-net-hr {
+    height: 1px;
+    background-color: #101316; 
+    margin: 20px 70px 10px;    
+}
+
+.info-inet-container {
+    margin-top: 20px;
+    margin-bottom: 55px;
+    text-align: left;
+}
+
+.info-about-inet-header {
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid #101316;
+}
+
+.text-info-inet {
+    font-size: 14px;
+    min-height: 120px;
+}
+
+/* 2.1 Ethernet section */
+
+.info-eth-section {
+    margin-top: 20px;
+}
+
+.info-eth-section p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.eth-description-container p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+/* 3. Inet price section */
+
+#ethPriceSection {
+    height: 285px;
+    background-image: url(../img/inet-slide1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#xDSLPriceSection {
+    height: 285px;
+    background-image: url(../img/inet-slide2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#ethPriceCarousel, #xDSLPriceCarousel {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-indicators {
+    margin-top: 10px;
+    bottom: 0;
+    top: 0;
+    height: 30px;
+}
+
+.carousel-indicators .active {
+    background-color: transparent;
+    border-bottom: 1px solid #FECE1A;
+}
+
+.carousel-indicators li{
+    text-align: center;
+    text-indent: 0;
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 80px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+}
+
+.carousel-caption {
+    height: 100%;
+    padding-top: 80px;
+}
+
+.carousel-caption h1 {
+    text-transform: uppercase; 
+    margin-bottom: 15px;
+}
+
+.tarif-header {
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: 1px solid #FECE1A;
+}
+
+.tarif-list-inline-item {
+    margin: 5px 10px;
+}
+
+.tarif-list-inline-item i {
+    margin-right: 5px;
+}
+
+.tarif-description {
+    font-size: 16px;
+}
+
+.tarif-description ul {
+    margin-bottom: 0px;
+}
+
+.tarif-description hr {
+    margin: 5px 0px 16px 0px;
+    height: 1px;
+}
+
+.tarif-description-label {
+    font-size: 25px;
+    color: #FECE1A;
+    margin-left: 10px;
+}
+
+.tarif-options {
+    font-size: 14px;
+}
+
+.tarif-purchase {
+    margin-top: 16px;
+}
+
+.purchase-btn {
+    background-color: #FECE1A;
+    border: 1px solid #FECE1A;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #101316;
+}
+
+.purchase-btn:hover {
+    background-color: #101316;
+    border: 1px solid #101316;
+    color: #fff;
+}
+
+.purchase-btn i {
+    padding-right: 5px;
+}
+
+.tarif-header-xm, .tarif-header-comment-xm {
+    text-transform: uppercase;
+    display: none;
+}
+
+.tarif-header-comment-xm {
+    text-decoration: underline;
+    text-decoration-color: #FECE1A;
+    margin-bottom: 0px;
+}
+
+/* 4. xSDL inet section */
+
+#xdslInetSection, #xDSLPriceSection {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.xdsl-inet-container {
+    font-size: 15px;
+}
+
+.xdsl-inet-container p {
+    margin-top: 20px;
+}
+
+/* 5. Phone tarifs section */
+
+#phoneTarifSection {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.phone-tarif-container {
+    font-size: 15px;
+}
+
+.phone-tarif-container p {
+    margin-top: 20px;
+}
+
+.install-phone-row {
+    margin-bottom: 20px;
+}
+
+.phone-price-col {
+    padding: 0 !important;
+}
+
+.phone-price-hr {
+    background-color: #101316;
+    height: 1px;
+    margin: 10px 40px;
+}
+
+.install-phone-description {
+    margin: 0px !important;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.install-phone-price {
+    margin: 0px !important;
+    font-size: 31px;
+}
+
+#mgTarifsSection {
+    text-align: center;
+    margin-top: 20px;
+    height: 216px;
+    background-image: url(../img/slider4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.mg-tarifs-description {
+    color: #FECE1A;
+    padding-top: 16px;
+    font-size: 12px;
+}
+
+.mg-tarifs-inputs-container {
+    padding: 0 150px;
+}
+
+#mgTarifsInput {
+    border-radius: 0px;
+}
+
+.input-group-append {
+    margin-left: 20px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 15px;
+}
+
+::-moz-placeholder {
+    font-size: 15px;
+}
+
+:-ms-input-placeholder {
+    font-size: 15px;
+}
+
+:-moz-placeholder {
+    font-size: 15px;
+}
+
+.mg-tarifs-info-section {
+    color: #fff;
+    font-size: 12px;
+}
+
+.mg-tarifs-error-section {
+    color: #fff;
+    font-size: 12px;
+    display: none;
+}
+
+.mg-tarifs-label {
+    margin-right: 5px;
+}
+
+.mg-direction-name {
+    text-align: right;
+    color: #FECE1A;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-right: -15px;
+}
+
+.mg-direction-price {
+    color: #fff;
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 3px;
+    border-left: 2px solid #FECE1A;
+    padding-left: 15px;
+}
+
+.mg-price {
+    position: absolute;
+    left: 250px;
+    color: #FECE1A;
+    font-size: 14px;
+}
+
+/* 6. Other services section */
+
+#otherServicesSecion {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.other-services-container {
+    font-size: 15px;
+}
+
+.other-services-container p {
+    margin-top: 20px;
+}
+
+/* 7. Add services modal section */
+
+/* 7.1 Modal header */
+
+.modal-title {
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.modal-tarif-type-section {
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.card {
+    border: none !important;
+    
+}
+
+.card-header {
+    background-color: #fff !important;
+    border-bottom: none;
+}
+
+.card-header p {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline;
+}
+
+.selected-options-circle {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    font-size: 10px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    background: #c3c3c3;
+}
+
+
+
+
+
+
+
+.modal-header, .modal-footer {
+    text-align: center;
+    display: initial;
+}
+
+/* 7.2 Modal tarif options section */
+
+.modal-body {
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.modal-tarif-params {
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.modal-tarif-param-delimeter {
+    margin: 0px 5px;
+}
+
+.fa-luggage-cart {
+    margin-right: 5px;
+}
+
+.modal-tarif-header {
+    text-align: center;
+    text-transform: uppercase;    
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.modal-tarif-name {
+    color: #FECE1A;
+}
+
+.tarif-option-title {
+    text-transform: uppercase;
+    color: #FECE1A;    
+}
+
+.tarif-option-header {
+    margin-bottom: 5px;
+}
+
+.tarif-option-list {
+    margin-bottom: 0px;
+}
+
+.tarif-option-li-item {
+    vertical-align: middle;
+}
+
+#tearifOptionSwitchSection {
+    width: 5%;
+    text-align: center;
+}
+
+#tarifOptionDescriptionSection {
+    width: 73%;
+}
+
+#tarifOptionGetInfoSection {
+    width: 2%;
+    text-align: center;
+}
+
+#tarifOptionGetInfoSection i {
+    padding-right: 5px;
+    font-size: 16px;
+}
+
+#tarifOptionGetInfoSection:hover {
+    cursor: help;
+ }
+
+#tarifOptionPriceSection {
+    width: 15%;
+    color: #FECE1A;
+    font-size: 20px;
+    text-align: center;
+}
+
+#tarifOptionPriceSection span {
+    font-size: 13px;
+}
+
+/* 7.3 Tarif options list group */
+
+.card-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.list-group-item {
+    border-radius: 0px !important;
+}
+
+.list-group-item:hover {
+    background-color: #FECE1A;
+}
+
+.first-tarif-option-item {
+    width: 65%;
+    font-size: 13px;
+}
+
+.second-tarif-option-item {
+    width: 15%;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.second-tarif-option-item:hover {
+    cursor: help;
+}
+
+.third-tarif-option-item {
+    width: 15%;
+    text-align: right;    
+}
+
+.selected-option {
+    background-color: #eaeff4;
+}
+
+/* 7.4 Modal tarif options total and footer sections */
+
+.tarif-total-list {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.modal-purchase-cost {
+    margin-right: 10px;
+}
+
+.modal-purchase-cost span {
+    font-size: 10px;
+}
+
+.modal-purchase-info {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.purchase-modal-btn {
+    color: #101316;
+    border: 1px solid #FECE1A;
+    background-color: #FECE1A;
+    border-radius: 0px;
+}
+
+.purchase-modal-btn:hover {
+    background-color: #101316;
+    color: #fff;
+    border: 1px solid #101316;
+}
+
+/* .tarif-total-list {
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.tarif-total-list li {
+    width: 45%;
+    text-align: center;
+    color: #FECE1A;
+}
+
+.modal-purchase-cost {
+    color: #101316;
+}
+
+.modal-purchase-cost span {
+    font-size: 10px;
+} */
+
+/* 8. Adaptive */
+
+@media screen and (max-width: 500px) {
+    
+    /* Buttons section */
+
+    .common-btn-dark {
+        margin-bottom: 16px;
+    }
+
+    /* Inet price section */
+
+    #ethPriceSection, #xDSLPriceSection {
+        padding: 0px 0px;
+        height: 400px !important;
+    }
+
+    .carousel-indicators {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .carousel-indicators .active {
+        background-color: transparent;
+        color: #FECE1A;
+        border-bottom: none;
+    }
+    
+    .carousel-caption h1 {
+        display: none;
+    }
+
+    .tarif-header-xm, .tarif-header-comment-xm {
+        display: block;
+    }
+
+    .tarif-header-xm {
+        margin-top: 3px;
+        font-size: 19px;
+    }
+
+    .tarif-header-comment-xm {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .tarif-list-inline-item {
+        margin: 0px 0px!important;
+        font-size: 15px;
+        
+    }
+
+    .tarif-list-inline-item {
+        margin: 0px 0px!important;
+        font-size: 15px;
+    }
+
+    .tarif-description-label {
+        display: block;
+        font-size: 16px;
+    }
+
+    /* Phone tarifs section */
+
+    #mgTarifsSection {
+        height: 400px !important;
+    }
+
+    .mg-tarifs-inputs-container {
+        text-align: center;
+    }
+
+    .mg-tarifs-inputs-container input {
+        width: 100% !important;
+        margin-bottom: 16px !important;
+        margin-top: 16px !important; 
+    }
+
+    .input-group-append {
+        margin-left: 0px !important;
+        width: 100%;
+        text-align: center;
+        display: inline;
+    }
+
+    .mg-tarifs-description {
+        padding-top: 16px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .mg-direction-name {
+        font-size: 21px;
+        padding-bottom: 6px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    /* Info services section */
+    
+    .large-info-btn {
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+
+    .tarif-header {
+        font-size: 15px;
+    }
+
+    /* Phone tarifs section */
+
+    #mgTarifsSection {
+        height: 280px;
+    }
+
+    .mg-tarifs-container {
+        padding: 0px;
+    }
+
+    .input-group-append {
+        margin-left: 10px;
+    }
+
+    .mg-tarifs-inputs-container {
+        padding: 0px !important;
+    }
+
+    .mg-direction-name {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .mg-direction-price {
+        text-align: center;
+        border-left: none;
+    }
+
+    .mg-price {
+        position: initial;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    /* Info services section */
+    
+    .info-inet-container {
+        margin-bottom: 0px;
+    }
+
+    .inet-info-col {
+        margin-bottom: 16px;
+    }
+    
+    /* Inet price section */
+
+    .tarif-options {
+        font-size: 12px;
+    }
+
+    .carousel-caption {
+        padding-top: 70px;
+    }
+
+    .header-info-services-section h2 {
+        padding-top: 20px;
+    }
+    
+    /* Phone tarifs section */
+
+    .mg-tarifs-container {
+        padding: 0px;
+    }
+
+    .mg-tarifs-description {
+        padding-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    .mg-tarifs-inputs-container {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 6px;
+    }
+    
+    .mg-tarifs-info-section p {
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width:400px) {
+    
+    /* Phone tarifs section */
+
+    #mgTarifsSection {
+        height: 370px !important;
+    }
+}
+
+@media screen and (max-width: 779px) and (min-width: 500px) {
+     
+    /* Inet price section */
+
+    #ethPriceSection, #xDSLPriceSection {
+        height: 350px !important;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 501px) {
+    
+    /* Inet price section */
+
+    .carousel-indicators {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .carousel-caption h1 {
+        display: none;
+    }
+
+    .tarif-header-xm, .tarif-header-comment-xm {
+        display: block;
+    }
+
+    .tarif-header-comment-xm {
+        margin-bottom: 10px;
+    }
+
+    .tarif-list-inline-item {
+        margin: 0px 0px!important;
+        font-size: 13px;
+    }
+
+    .tarif-description-label {
+        font-size: 16px;
+    }
+
+    .tarif-purchase {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 993px) and (min-width: 769px) {
+    
+    /* Inet price section */
+
+    #ethPriceSection, #xDSLPriceSection {
+        height: 330px;
+    } 
+
+    .tarif-list-inline-item {
+        margin: 0px 50px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+    
+    /* Info services section */
+    
+    .header-info-services-section h2 {
+        padding-top: 30px;
+    }    
+}
+
+@media screen and (max-width: 1330px) and (min-width: 993px) {
+
+    /* Inet price section */
+
+    #ethPriceSection, #xDSLPriceSection {
+        height: 330px;
+    }
+}

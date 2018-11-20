@@ -1,0 +1,422 @@
+/* 1. Info about company section */
+
+#infoAboutCompanySection {
+    padding-top: 59px;
+    min-height: 450px;
+    background-image: url(../img/about_company.png);
+}
+
+.info-about-company-container {
+    text-align: center;
+    height: 100%;
+    color: #fff;
+}
+
+.info-about-company-container h2 {    
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+/* 2. About company section */
+
+.about-company-container {
+    text-align: center;
+}
+
+#descriprionAboutCompanySection {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* 3. Partners company section */
+
+.partners-company-section {
+    text-align: center;    
+}
+
+.partners-company-section h6 {
+    padding-top: 0px;
+}
+
+/* 3.1 partners carousel */
+
+#partnersCarouselContainer {
+    margin-top: 20px;
+    background-image: url(../img/partners.png);
+    height: 300px;
+}
+
+#partnersCarousel {
+    height: 100%;
+}
+
+#smallPartnersCarousel {
+    display: none;
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-row {
+    height: 100%;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+#containerPartnersCarousel {
+    height: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.partner-case {
+    margin-top: 80px;
+}
+
+.partner-case p {
+    font-size: 13px;
+    color: #fff;
+}
+
+.partner-section {
+    min-height: 150px;
+    text-align: center;
+}
+
+.partner-section hr {
+    background-color: #fff;
+}
+
+.common-btn {
+    display: none;
+    border: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.common-btn:hover {
+    background-color: #FECE1A;
+    border: 1px solid #FECE1A;
+    color: #101316;    
+}
+
+.common-btn-xm {
+    border: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.common-btn-xm:hover {
+    background-color: #FECE1A;
+    border: 1px solid #FECE1A;
+    color: #101316;    
+}
+
+.common-btn-sm {
+    display: none;
+    border: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.common-btn-sm:hover {
+    background-color: #FECE1A;
+    border: 1px solid #FECE1A;
+    color: #101316;    
+}
+
+/* 4. Documents */
+
+.main-documents-container {
+    text-align: center;
+}
+
+#descriptionDocumentsSection {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.accordion {
+    margin-top: 20px;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.card {
+    background-color: #FECE1A;
+    border-radius: 0;
+    border: 1px solid #FECE1A;    
+}
+
+.card-header {
+    background-color: #FECE1A;
+}
+
+.card-header:hover {
+    cursor: pointer;
+}
+
+.mb-0-label {
+    font-size: 15px;
+    text-align: left;
+}
+
+.mb-0-chevron {
+    text-align: right;
+}
+
+.fa-xm {
+    display: none;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.fas-xm {
+    margin-right: 3px;
+}
+
+.table-sm {
+    font-size: 14px;
+}
+
+.table-sm td {
+    border: none;
+}
+
+.view-document-icon, .download-document-icon {
+    font-size: 1.15em;
+    cursor: pointer;
+}
+
+.view-document-icon:hover, .download-document-icon:hover {
+    color: #fff;
+    text-shadow: 1px 1px 2px #101316;
+}
+
+.view-document-icon {
+    padding-right: 10px;
+}
+
+/* 4.1 View document modal */
+
+.modal-header {
+    padding-top: 5px;
+    padding-bottom: 5px;    
+}
+
+.modal-header h6 {
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.modal-body {
+    height: 600px;
+}
+
+/* 5.Adaptive */
+
+@media screen and (max-width: 420px) {
+    
+    /* Partners carousel */
+    
+    #containerPartnersCarousel {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .carousel-control-prev-xm span {
+        margin-left: -30px;
+    }
+
+    .carousel-control-next-xm span {
+        margin-right: -30px;
+    }
+
+    .xm-indicators {
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (max-width: 489px) {
+    
+    /* Documents section */
+    
+    .common-btn-dark {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+        
+    /* Documents section */
+    
+    .mb-0-label {
+        text-align: center;
+    }
+
+    .mb-0-chevron {
+        text-align: center;
+    }
+
+    .fa-chevron-right {
+        display: none;
+    }
+
+    .fa-xm {
+        display: initial;
+    }
+
+    /* View document modal */
+
+    .view-document-td {
+        display: none;
+    }
+
+    .card-body {
+        padding: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    /* Partners carousel */
+    
+    #partnersCarousel {
+        display: none;
+    }
+
+    #smallPartnersCarousel {
+        display: block;
+    }
+
+    .partner-case-xm {
+        margin-top: 50px;
+    }
+
+    .partner-case-xm p {
+        min-height: 55px;
+    }
+
+    .partner-case-xm hr {
+        background-color: #FECE1A;
+    }
+
+    /* Documents section */
+    
+    .card-header {
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    /* Info about company section */
+
+    .info-about-company-container h2 {
+        padding-top: 20px;
+    }
+
+    .info-annotation {
+        margin-bottom: 6px;
+    }
+
+    #infoAboutCompanySection {
+        padding-bottom: 16px;
+    }
+
+    .carousel-control-prev-xm, .carousel-control-next-xm {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .carousel-control-prev, .carousel-control-next {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 993px) and (min-width: 769px) {
+    
+    /* Partners carousel */
+
+    .carousel-control-next {
+        margin-right: -10px;
+        width: 80px;
+    }
+
+    .carousel-control-prev {
+        margin-left: -10px;
+        width: 80px;
+    }
+
+    .partner-section img {
+        width: 150px;
+    }
+
+    .partner-case {
+        margin-top: 50px;
+    }
+
+    .partner-case p {
+        font-size: 11px;
+        height: 80px;
+    }
+
+    .common-btn-sm {
+        display: inherit;
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+    
+    /* Info about company section */
+
+    .info-about-company-container h2 {
+        padding-top: 30px;
+    }
+
+    /* Partners carousel */
+
+    .partner-case {
+        margin-top: 55px;
+    }
+
+    .partner-case p {
+        height: 70px;
+    }
+
+    .common-btn-sm {
+        display: inherit;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 13px;
+    }
+}
